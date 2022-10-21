@@ -18,5 +18,8 @@ void Action(){
         case 1:
             SickLetter();
             break;
+        case 2:
+            PiratesSeenNearTheCoastOfNewJersey();
+            break;
     }
 }
