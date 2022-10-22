@@ -272,3 +272,61 @@ void AWarStory(){
     cout<<"We "<<verbPastTense1<<" to our "<<verbPresentEndsInING1<<" "<<pluralNoun3<<", and we were "<<verbPastTense2<<" after "<<number1<<" hours of "<<verbPresentEndsInING2<<". We had to be "<<adjective2<<", and "<<verbPastTense3<<" behind "<<adjective3<<" "<<pluralNoun4<<". "<<firstNameOfAPerson<<", a/an "<<occupation3<<", lifted his "<<bodyPart<<" and was hit by an enemy "<<noun3<<". My "<<occupation4<<" "<<verbPastTense4<<", "<<exclamation2<<" and we all "<<verbPastTense5<<", "<<verbPresentEndsInING3<<" "<<pluralNoun5<<" at them. A "<<adjective4<<" explosion went off in the distance, "<<verbPresentEndsInING4<<" "<<pluralNoun6<<" and "<<pluralNoun7<<" eveywhere. "<<number2<<" "<<adjective5<<pluralNoun8<<" were "<<verbPastTense6<<", and we were starting to lose "<<noun4<<". Just when we thought it was all over, my "<<occupation5<<" called in a secret weapon: The "<<adjective6<<" "<<noun5<<". When it was "<<verbPastTense7<<" onto our enemies, we could see "<<adjective7<<" "<<pluralNoun9<<" "<<verbPresentEndsInING5<<" everywhere, and we could hear them call out, "<<exclamation3<<" and "<<exclamation4<<". We all "<<verbPastTense8<<", because we had won. All of the "<<pluralNoun10<<" belonged to us.\n";
     //I want to kill myself
 }   
+void ARegularDayAtHogwarts(){
+    system("CLS");
+    string location, firstName1, firstName2, firstName3, lastName1, firstName4, lastName2, firstName5, lastName3, lastName4, adjective, firstName6, lastName5, lastName6, furniture, electronics1, electronics2, lastName7, firstName7, firstName8, firstName9, firstName10;
+    cout<<"Location: ";
+    cin>>location;
+    cout<<"First name: ";
+    cin>>firstName1;
+    cout<<"First name: ";
+    cin>>firstName2;
+    cout<<"First name: ";
+    cin>>firstName3;
+    cout<<"Last name: ";
+    cin>>lastName1;
+    cout<<"First name: ";
+    cin>>firstName4;
+    cout<<"Last name: ";
+    cin>>lastName2;
+    cout<<"First name: ";
+    cin>>firstName5;
+    cout<<"Last name: ";
+    cin>>lastName3;
+    cout<<"Last name: ";
+    cin>>lastName4;
+    cout<<"Adjective: ";
+    cin>>adjective;
+    cout<<"First name: ";
+    cin>>firstName6;
+    cout<<"Last name: ";
+    cin>>lastName5;
+    cout<<"Last name: ";
+    cin>>lastName6;
+    cout<<"Furniture: ";
+    cin>>furniture;
+    cout<<"Electronics: ";
+    cin>>electronics1;
+    cout<<"Electronics: ";
+    cin>>electronics2;
+    cout<<"Last name: ";
+    cin>>lastName7;
+    cout<<"First name: ";
+    cin>>firstName7;
+    cout<<"First name: ";
+    cin>>firstName8;
+    cout<<"First name: ";
+    cin>>firstName9;
+    cout<<"First name: ";
+    cin>>firstName10;
+    cout<<"A Regular Day At Hogwarts (Or Not)\n\n";
+    cout<<"One day at "<<location<<" Witchcraft and Wizardry school, "<<firstName1<<", "<<firstName2<<" and "<<firstName3<<" were just going to classes like a regular day, but then they found out they had a new defence against the dark arts teacher!\n";
+    cout<<"His name was Professor "<<lastName1<<" and he was as silly as "<<firstName4<<" was smart! When everyone was in the classroom, Pro. "<<lastName2<<" said, 'I am your new defence against the dark arts teacher. Today we will start with the spell against the dreaded LAMP!'\n";
+    cout<<firstName5<<" instantly shot up her hand; 'Pro "<<lastName3<<" the lamp is not dreaded. They are just a lamp that provides light'.\n";
+    cout<<"'Oh no, you must be mistaken', said Pro. "<<lastName4<<". It is very "<<adjective<<". Now who knows the spell against it?'\n";
+    cout<<firstName6<<" raised his hand. He said; 'Isn't it 'Aclomonus Ecotomus'?'\n";
+    cout<<"'That is correct', said "<<lastName5<<". Pro "<<lastName6<<" continued on about how to defend yourself against "<<furniture<<" "<<electronics1<<" "<<electronics2<<" and lots of other silly things. Every question Pro. "<<lastName7<<" asked, "<<firstName7<<" answered and got it correct. When class was over, "<<firstName8<<" said, 'Wow "<<firstName9<<" we didn't know you had it in you'.\n";
+    cout<<"'Yep, I wish everyday was like this. Didn't you hear he was actually only a sub?' "<<firstName10<<" spoke up. 'Oh no, I can't imagine what tomorrow will be like.'\n";
+    /*Why does this have 8k views on Word Blank? 
+    I made a mistake choosing this one huh.*/
+}
