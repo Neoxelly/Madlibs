@@ -7,7 +7,7 @@ int main(){
     string playAgain;
     cout<<"MAD LIBS!\n";
     WorldsGreatestGame();
-    cout<<"Select the genre you want to play!\n\n";
+    again:cout<<"Select the genre you want to play!\n\n";
     cout<<"Action               Computing\n";
     cout<<"Adventure            Entertainment\n";
     cout<<"Animal               Holiday\n";
@@ -15,7 +15,7 @@ int main(){
     cout<<"Crime                Music\n";
     cout<<"Comedy               Science-Fiction\n\n";
     cout<<"(Note, you have to type it out.)\n";
-    again:cin>>Choice;
+    cin>>Choice;
     if(Choice == "Action" || Choice == "action"){
         Action();
     }
@@ -23,7 +23,6 @@ int main(){
     cout<<"Would you like to play again? (Y/N)\n";
     cin>>playAgain;
     if(playAgain == "Yes" || playAgain == "yes" || playAgain == "y" || playAgain == "Y"){
-        cout<<"Alright! Type out the genre you want to play.\n";
         goto again;
     }
     else if(playAgain == "No" || playAgain == "no" || playAgain == "n" || playAgain == "N"){

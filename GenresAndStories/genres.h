@@ -27,5 +27,8 @@ void Action(){
         case 4:
             TheDayThatZombiesAttack();
             break;
+        case 5:
+            AWarStory();
+            break;
     }
 }
