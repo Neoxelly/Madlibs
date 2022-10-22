@@ -122,3 +122,6 @@ void WhatHappenedToYou(){
     cout<<"You and your friend run over to it. Someone comes up behind you with a "<<noun<<" and hits you with it.\n\n";
     cout<<"You die of "<<bodyPart<<" trauma.\n";
 }
+void TheDayThatZombiesAttack(){
+
+}
