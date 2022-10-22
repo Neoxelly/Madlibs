@@ -91,7 +91,7 @@ void PiratesSeenNearTheCoastOfNewJersey(){
 void WhatHappenedToYou(){
     system("CLS");
     string pluralNoun, adjective, animal, anyVehicle, noun, bodyPart;
-    int numberMoreThanOne;
+    float numberMoreThanOne;
     cout<<"Plural noun: ";
     cin>>pluralNoun;
     cout<<"Adjective: ";
@@ -112,7 +112,7 @@ void WhatHappenedToYou(){
     cin>>bodyPart;
     cout<<"What Happened To You?!\n\n";
     cout<<"You woke up one morning with a smile on your face.\n\n";
-    cout<<"Time for a road trip\n\n";
+    cout<<"'Time for a road trip'\n\n";
     cout<<"You grab a bag full of "<<pluralNoun<<" and your best friend and hit the road.\n\n";
     cout<<"As you drive down the road you notice a very "<<adjective<<" "<<animal<<".\n\n";
     cout<<"You stop to take a picture of it.\n\n";
@@ -123,5 +123,33 @@ void WhatHappenedToYou(){
     cout<<"You die of "<<bodyPart<<" trauma.\n";
 }
 void TheDayThatZombiesAttack(){
-
+    system("CLS");
+    string firstName1, noun1, verb1, firstName2, verb2, adjective, verb3, verb4, properNoun, location, noun2;
+    float number;
+    cout<<"First name: ";
+    cin>>firstName1;
+    cout<<"Noun: ";
+    cin>>noun1;
+    cout<<"Verb: ";
+    cin>>verb1;
+    cout<<"First name: ";
+    cin>>firstName2;
+    cout<<"Verb: ";
+    cin>>verb2;
+    cout<<"Adjective: ";
+    cin>>adjective;
+    cout<<"Verb: ";
+    cin>>verb3;
+    cout<<"Verb: ";
+    cin>>verb4;
+    cout<<"Proper noun: ";
+    cin>>properNoun;
+    cout<<"Number: ";
+    cin>>number;
+    cout<<"Location: ";
+    cin>>location;
+    cout<<"Noun: ";
+    cin>>noun2;
+    cout<<"The Day The Zombies Attack!\n\n";
+    cout<<"One fateful day, Dr. "<<firstName1<<" accidentally dumped toxic polutens in a dead body's "<<noun1<<" creating the first zombie. From there on that zombie "<<verb1<<" and terrorized millions and millions of people, until "<<firstName2<<" Shorts came to the rescue. Zack was out to find the root of this evil to "<<verb2<<" it. His mother had fallen victim to the curse herself. Zack carried a 44 "<<adjective<<" Desert Eagle just in case of a zombie attack. It was rather frequent that he "<<verb3<<" zobmies, but they didn't "<<verb4<<" him. You just never know when they might start, though. He travelled town to town looking for Dan 'Insecure Clerk' Kerry or like his friends like to call him "<<properNoun<<". After "<<number<<" years of search he finally found him in a "<<location<<". It was over after all these years when he pulled out his "<<noun2<<" and blasted that zombies head off.\n";
 }

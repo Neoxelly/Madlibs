@@ -24,5 +24,8 @@ void Action(){
         case 3:
             WhatHappenedToYou();
             break;
+        case 4:
+            TheDayThatZombiesAttack();
+            break;
     }
 }
