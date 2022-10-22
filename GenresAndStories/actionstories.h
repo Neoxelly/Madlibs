@@ -84,5 +84,41 @@ void PiratesSeenNearTheCoastOfNewJersey(){
     cin>>noun8;
     cout<<"Adjective: ";
     cin>>adjective4;
+    cout<<"Pirates Seen Near The Coast Of New Jersey\n\n";
     cout<<"In the beginning of time in a/an "<<noun1<<" blue two "<<pluralNoun1<<" were sailing in the Inlet near Barnegat New Jersey. One of the pirates named Danell "<<pastTenseVerb1<<" that his "<<noun2<<" were getting "<<adjective1<<". His pirate friend Michael said yo ho, we have hit a/an "<<noun3<<" and we have "<<pastTenseVerb2<<" a leak. The water began to fill the boat "<<adverb1<<" and the pirates were "<<adjective2<<" they would sink and be eaten by "<<adjective3<<" sharks. The sharks began circling the "<<noun4<<". The two pirates had to think "<<adverb2<<". What should we do said Danell. I have "<<noun5<<" and nails we could try to "<<verb<<" the boat with that said Michael. Danell agreed and they got to work, soon they had "<<pastTenseVerb3<<" up the boat. Just then a "<<noun6<<" ran into the boat and broke open the patch they had just finished. Without enough wood to fix it again, their fate looked grim. All of a sudden a school of giant prehistoric "<<noun7<<" came "<<verbEndingInIng<<" by. They swam under the boat and "<<pastTenseVerb4<<" it up to the surface so that it wouldn't sink. The Jellyfish floated the boat all the way back into the "<<noun8<<" and the "<<adjective4<<" pirates were saved.\n\n";
+}
+
+void WhatHappenedToYou(){
+    system("CLS");
+    string pluralNoun, adjective, animal, anyVehicle, noun, bodyPart;
+    int numberMoreThanOne;
+    cout<<"Plural noun: ";
+    cin>>pluralNoun;
+    cout<<"Adjective: ";
+    cin>>adjective;
+    cout<<"Animal: ";
+    cin>>animal;
+    cout<<"Number more than one: ";
+    number:cin>>numberMoreThanOne;
+    if(numberMoreThanOne <= 1){
+        cout<<"Please enter a number greater than one: ";
+        goto number;
+    } 
+    cout<<"Any vehicle: ";
+    cin>>anyVehicle;
+    cout<<"Noun: ";
+    cin>>noun;
+    cout<<"Body part: ";
+    cin>>bodyPart;
+    cout<<"What Happened To You?!\n\n";
+    cout<<"You woke up one morning with a smile on your face.\n\n";
+    cout<<"Time for a road trip\n\n";
+    cout<<"You grab a bag full of "<<pluralNoun<<" and your best friend and hit the road.\n\n";
+    cout<<"As you drive down the road you notice a very "<<adjective<<" "<<animal<<".\n\n";
+    cout<<"You stop to take a picture of it.\n\n";
+    cout<<"When you accidentaly leave the flash one, IT ATTACKS YOU.\n\n";
+    cout<<"After "<<numberMoreThanOne<<" hours of pain, you and your friend get back in the car and continue with the road trip.\n\n";
+    cout<<"After another hour of driving you see a "<<anyVehicle<<" in the middle of a field.\n\n";
+    cout<<"You and your friend run over to it. Someone comes up behind you with a "<<noun<<" and hits you with it.\n\n";
+    cout<<"You die of "<<bodyPart<<" trauma.\n";
 }

@@ -21,5 +21,8 @@ void Action(){
         case 2:
             PiratesSeenNearTheCoastOfNewJersey();
             break;
+        case 3:
+            WhatHappenedToYou();
+            break;
     }
 }
