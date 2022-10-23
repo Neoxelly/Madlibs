@@ -702,3 +702,131 @@ void CrazyTaxi(){
     cout<<"But that did not stop the car. She soon lost her "<<noun3<<" and the car crashed into a "<<noun4<<" store. We bot got out of the car and I yelled at her and called her a/an "<<insult<<". She apologized and she said it was a/an "<<adjective5<<" idea.\n";
     cout<<"And now she has some "<<adjective6<<" Youtube footage for her new film. "<<adjective7<<" Taxi!\n";
 }
+
+void SecretAgent(){
+    system("CLS");
+    string verb1, verb2, verb3, verb4, verb5, verb6, verb7, verb8, verb9, verb10, verb11, verb12, noun1, noun2, noun3, noun4, noun5, noun6, noun7, noun8, adjective1, adjective2, adjective3, adjective4, adjective5, properNoun, location;
+    float number; 
+    cout<<"Verb: ";
+    cin.ignore();
+    getline(cin, verb1);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Number: ";
+    cin>>number;
+    cin.ignore(1, '\n');
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective1);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb3);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun3);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb4);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb5);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb6);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb7);
+
+    cout<<"Location: ";
+    cin.ignore(0, '\n');
+    getline(cin, location);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun4);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective4);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun5);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun6);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective5);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb8);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb9);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun7);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb10);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb11);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun8);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb12);
+
+    cout<<"Secret Agent\n\n";
+    cout<<"My name is Secret Agent "<<verb1<<" from "<<noun1<<" "<<number<<" I have been sent to "<<verb2<<" the "<<adjective1<<" professor before "<<noun2<<" comes.\n";
+    cout<<"Part of my job requires "<<verb3<<" all these weapons and "<<noun3<<". So far I flung my "<<adjective2<<" hook over the "<<properNoun<<" and climbed through the window. I need to "<<verb4<<" the "<<verb5<<" room.\n";
+    cout<<"I have always "<<verb6<<" if I could get "<<verb7<<" doing this. But I do this to protect the people of the "<<location<<". Besides those "<<adjective3<<" men are no "<<noun4<<" for my "<<adjective4<<" gun and "<<noun5<<" "<<noun6<<" Sharks in the moat may be a "<<adjective5<<" problem but I am "<<verb8<<" and ready.\n";
+    cout<<"And now I have "<<verb9<<" the professors "<<noun7<<". This is it, all these years i have caught him. "<<verb10<<" till boss "<<verb11<<" this well agent "<<noun8<<" out and over I'm "<<verb12<<" in.\n";
+    //What?
+}
+
+void TheBigRace(){
+    
+}

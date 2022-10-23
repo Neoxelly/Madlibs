@@ -36,5 +36,8 @@ void Action(){
         case 7:
             CrazyTaxi();
             break;
+        case 8:
+            SecretAgent();
+            break;
     }
 }
