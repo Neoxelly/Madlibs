@@ -20,7 +20,9 @@ int main(){
     if(Choice == "Action" || Choice == "action"){
         Action();
     }
-
+    else if(Choice == "Adventure" || Choice == "adventure"){
+        Adventure();
+    }
     cout<<"Would you like to play again? (Y/N)\n";
     cin>>playAgain;
     if(playAgain == "Yes" || playAgain == "yes" || playAgain == "y" || playAgain == "Y"){

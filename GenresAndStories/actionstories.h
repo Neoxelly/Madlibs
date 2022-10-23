@@ -955,3 +955,46 @@ void TheBigRace(){
     cout<<"Ready, Set, GO! And they were off!\n";
     cout<<"He was so "<<adjective5<<" from "<<verbEndingInIng<<" all they way there, he "<<verb5<<". "<<firstName4<<" "<<verbEndingInEd1<<" 'I'm too "<<adjective6<<" I can't go on'. "<<firstName5<<" "<<verbEndingInEd2<<" to help and took him home later that thay. She helped him out of her blue car into his house. "<<firstName6<<" thanked her and "<<verb6<<" the "<<adjective7<<" door. She gave him a kiss on the "<<bodyPart2<<" and left.\n";
 }
+
+void RevengeOfMrFlower(){
+    system("CLS");
+    string oneWordInsult, oppositeOfMan, bodyPart, badEmotion, instrument, emotionallyUpset, swearWord, somethingYouWouldNeverEat;
+    cout<<"One word insult: ";
+    cin.ignore();
+    getline(cin, oneWordInsult);
+
+    cout<<"Opposite of man: ";
+    cin.ignore(0,'\n');
+    getline(cin, oppositeOfMan);
+
+    cout<<"Body part: ";
+    cin.ignore(0,'\n');
+    getline(cin, bodyPart);
+
+    cout<<"Bad emotion: ";
+    cin.ignore(0,'\n');
+    getline(cin, badEmotion);
+
+    cout<<"Instrument: ";
+    cin.ignore(0,'\n');
+    getline(cin, instrument);
+
+    cout<<"Sad emotion: ";
+    cin.ignore(0,'\n');
+    getline(cin, emotionallyUpset);
+
+    cout<<"Swear word: ";
+    cin.ignore(0,'\n');
+    getline(cin, swearWord);
+
+    cout<<"Something you would never eat: ";
+    cin.ignore(0,'\n');
+    getline(cin, somethingYouWouldNeverEat);
+
+    cout<<"Revenge of Mr.Flower\n\n";
+    cout<<"Once upon a time there lived an insanely "<<oneWordInsult<<" "<<oppositeOfMan<<" named Mr. Flower.\n";
+    cout<<"He didn't have a "<<bodyPart<<".\n";
+    cout<<"One day he was so "<<badEmotion<<" that he threw away his "<<instrument<<".\n";
+    cout<<"He got so "<<emotionallyUpset<<" he said 'oh "<<swearWord<<"', Then he ate a giant block of "<<somethingYouWouldNeverEat<<".\n";
+    cout<<"Then he died.\n";
+}
