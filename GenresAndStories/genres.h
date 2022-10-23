@@ -33,5 +33,8 @@ void Action(){
         case 6:
             ARegularDayAtHogwarts();
             break;
+        case 7:
+            CrazyTaxi();
+            break;
     }
 }

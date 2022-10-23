@@ -64,7 +64,7 @@ void SickLetter(){
     cout<<"Sincerely,\n\n";
     cout<<"Mrs. "<<lastNameThatsNotYours3<<endl<<endl;
 }
-//PROBLEMS WITH INPUT FROM NOW ON
+
 void PiratesSeenNearTheCoastOfNewJersey(){
     system("CLS");
     string noun1, pluralNoun1, pastTenseVerb1, noun2, adjective1, noun3, pastTenseVerb2, adverb1, adjective2, adjective3, noun4, adverb2, noun5, verb, pastTenseVerb3, noun6, noun7, verbEndingInIng, pastTenseVerb4, noun8, adjective4;
@@ -361,7 +361,7 @@ void AWarStory(){
     cin.ignore(0,'\n');
     getline(cin, pluralNoun4);
     
-    cout<<"First Name of a Person: ";
+    cout<<"Full Name of a Person: ";
     cin.ignore(0,'\n');
     getline(cin, firstNameOfAPerson);
     
@@ -587,4 +587,118 @@ void ARegularDayAtHogwarts(){
     cout<<"'That is correct', said "<<lastName5<<". Pro. "<<lastName6<<" continued on about how to defend yourself against "<<furniture<<" "<<electronics1<<" "<<electronics2<<" and lots of other silly things. Everyone question pro. "<<lastName7<<" asked, "<<firstName7<<" answered and got it correct. When class ws over, "<<firstName8<<" said, 'Wow "<<firstName9<<" we didn't know you had it in you'\n";
     cout<<"'Yep, I wish every day was like this. Didn't you hear he was actually only a sub?' "<<firstName10<<" spoke up.\n";
     cout<<"'Oh no, I can't imagine what tomorrow will be like.'\n";
+}
+
+void CrazyTaxi(){
+    system("CLS");
+    string city, pastTenseVerb, specificVehicle, noun1, noun2, noun3, noun4, restaurant, adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, adjective7, femaleCelebrity, specificBuilding, verbEndingInIng1, verbEndingInIng2, religion, verb, lastName, pluralNoun, insult;
+    float number;
+
+    cout<<"City: ";
+    cin.ignore();
+    getline(cin, city);
+
+    cout<<"Past tense verb: ";
+    cin.ignore(0,'\n');
+    getline(cin, pastTenseVerb);
+
+    cout<<"Specific vehicle: ";
+    cin.ignore(0,'\n');
+    getline(cin, specificVehicle);
+
+    cout<<"Noun: ";
+    cin.ignore(0,'\n');
+    getline(cin, noun1);
+
+    cout<<"Restaurant: ";
+    cin.ignore(0,'\n');
+    getline(cin, restaurant);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective1);
+
+    cout<<"Female celebrity: ";
+    cin.ignore(0,'\n');
+    getline(cin, femaleCelebrity);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective2);
+
+    cout<<"Specific building: ";
+    cin.ignore(0,'\n');
+    getline(cin, specificBuilding);
+
+    cout<<"Verb ending in ing: ";
+    cin.ignore(0,'\n');
+    getline(cin, verbEndingInIng1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective3);
+
+    cout<<"Religion: ";
+    cin.ignore(0,'\n');
+    getline(cin, religion);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective4);
+    
+    cout<<"Verb: ";
+    cin.ignore(0,'\n');
+    getline(cin, verb);
+
+    cout<<"Noun: ";
+    cin.ignore(0,'\n');
+    getline(cin, noun2);
+
+    cout<<"Number: ";
+    cin>>number;
+    cin.ignore(1,'\n');
+    
+    cout<<"Verb ending in ing: ";
+    cin.ignore(0,'\n');
+    getline(cin, verbEndingInIng2);
+
+    cout<<"Last name: ";
+    cin.ignore(0,'\n');
+    getline(cin, lastName);
+
+    cout<<"Plural noun: ";
+    cin.ignore(0,'\n');
+    getline(cin, pluralNoun);
+
+    cout<<"Noun: ";
+    cin.ignore(0,'\n');
+    getline(cin, noun3);
+
+    cout<<"Noun: ";
+    cin.ignore(0,'\n');
+    getline(cin, noun4);
+
+    cout<<"Insult: ";
+    cin.ignore(0,'\n');
+    getline(cin, insult);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective5);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective6);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective7);
+
+    cout<<"Crazy Taxi\n\n";
+    cout<<"I work in "<<city<<" as a taxi driver, I remember the first time I "<<pastTenseVerb<<" up a client. I was driving in my "<<specificVehicle<<" when my "<<noun1<<" beeped, I picked up the reciever and my boss asked me to get a woman from a local "<<restaurant<<".\n";
+    cout<<"I drove to the where a/an "<<adjective1<<" woman stumbled into the back seat, the woman turned out to be "<<femaleCelebrity<<". And man she was "<<adjective2<<". She demanded to be taken to her home at the "<<specificBuilding<<".\n";
+    cout<<"As I drove she started "<<verbEndingInIng1<<" about how "<<adjective3<<" my driving was, and was questioning the fact as to why I am "<<religion<<". Things got "<<adjective4<<" from there. She demanded that I let her drive or she would "<<verb<<" the company!\n";
+    cout<<"So she got behind the "<<noun2<<" and floored it, she swerved through traffic, ran "<<number<<" red lights. Then she decided to go "<<verbEndingInIng2<<". She drove the car through the doors of "<<lastName<<" mall and crashed into a display of "<<pluralNoun<<".\n";
+    cout<<"But that did not stop the car. She soon lost her "<<noun3<<" and the car crashed into a "<<noun4<<" store. We bot got out of the car and I yelled at her and called her a/an "<<insult<<". She apologized and she said it was a/an "<<adjective5<<" idea.\n";
+    cout<<"And now she has some "<<adjective6<<" Youtube footage for her new film. "<<adjective7<<" Taxi!\n";
 }
