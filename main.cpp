@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include "WorldsGreatestGame/WorldsGreatestGame.h"
 #include "GenresAndStories/genres.h"
 using namespace std;
@@ -15,7 +16,7 @@ int main(){
     cout<<"Crime                Music\n";
     cout<<"Comedy               Science-Fiction\n\n";
     cout<<"(Note, you have to type it out.)\n";
-    cin>>Choice;
+    getline(cin, Choice);
     if(Choice == "Action" || Choice == "action"){
         Action();
     }
