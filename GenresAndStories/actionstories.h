@@ -828,5 +828,130 @@ void SecretAgent(){
 }
 
 void TheBigRace(){
+    system("CLS");
+    string firstName1, firstName2, firstName3, firstName4, firstName5, firstName6, verb1, verb2, verb3, verb4, verb5, verb6, adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, adjective7, noun1, noun2, noun3, bodyPart1, verbEndingInIng, verbEndingInEd1, verbEndingInEd2, bodyPart2; 
+    float  number1, number2;
+    cout<<"First name: ";
+    cin.ignore();
+    getline(cin, firstName1);
+
+    cout<<"Verb: ";
+    cin.ignore(0,'\n');
+    getline(cin, verb1);
+
+    cout<<"Verb: ";
+    cin.ignore(0,'\n');
+    getline(cin, verb2);
+
+    cout<<"Number: ";
+    cin>>number1;
+    cin.ignore(1,'\n');
+
+    cout<<"Number: ";
+    cin>>number2;
+    cin.ignore(1,'\n');
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective1);
+
+    cout<<"Noun: ";
+    cin.ignore(0,'\n');
+    getline(cin, noun1);
+
+    cout<<"Noun: ";
+    cin.ignore(0,'\n');
+    getline(cin, noun2);
+
+    cout<<"Verb: ";
+    cin.ignore(0,'\n');
+    getline(cin, verb3);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective3);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective4);
+
+    cout<<"Body part: ";
+    cin.ignore(0,'\n');
+    getline(cin, bodyPart1);
+
+    cout<<"Verb: ";
+    cin.ignore(0,'\n');
+    getline(cin, verb4);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName3);
+
+    cout<<"Noun: ";
+    cin.ignore(0,'\n');
+    getline(cin, noun3);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective5);
+
+    cout<<"Verb ending in ing: ";
+    cin.ignore(0,'\n');
+    getline(cin, verbEndingInIng);
+
+    cout<<"Verb: ";
+    cin.ignore(0,'\n');
+    getline(cin, verb5);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName4);
+
+    cout<<"Verb ending in ed: ";
+    cin.ignore(0,'\n');
+    getline(cin, verbEndingInEd1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective6);
     
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName5);
+
+    cout<<"Verb ending in ed: ";
+    cin.ignore(0,'\n');
+    getline(cin, verbEndingInEd2);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName6);
+
+    cout<<"Verb: ";
+    cin.ignore(0,'\n');
+    getline(cin, verb6);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective7);
+    
+    cout<<"Body part: ";
+    cin.ignore(0,'\n');
+    getline(cin, bodyPart2);
+
+    cout<<"The Big Race!\n\n";
+    cout<<firstName1<<" was feeling really "<<verb1<<" about the "<<verb2<<" annual race. He practiced "<<number1<<" times a day. About "<<number2<<" days later, he was finally ready!\n";
+    cout<<"He put on his "<<adjective1<<" "<<noun1<<" "<<noun2<<" and "<<verb3<<" out the door for more practice. When he got there, he met one of the joggers.\n";
+    cout<<"Her name was "<<firstName2<<". She has "<<adjective2<<" "<<adjective3<<" hair and was very "<<adjective4<<". He couldn't take his "<<bodyPart1<<" off her.\n";
+    cout<<"Finally the race was ready! He "<<verb4<<" over at "<<firstName3<<" then at his "<<noun3<<" then back at her again.\n";
+    cout<<"Ready, Set, GO! And they were off!\n";
+    cout<<"He was so "<<adjective5<<" from "<<verbEndingInIng<<" all they way there, he "<<verb5<<". "<<firstName4<<" "<<verbEndingInEd1<<" 'I'm too "<<adjective6<<" I can't go on'. "<<firstName5<<" "<<verbEndingInEd2<<" to help and took him home later that thay. She helped him out of her blue car into his house. "<<firstName6<<" thanked her and "<<verb6<<" the "<<adjective7<<" door. She gave him a kiss on the "<<bodyPart2<<" and left.\n";
 }

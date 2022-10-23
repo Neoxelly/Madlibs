@@ -39,5 +39,8 @@ void Action(){
         case 8:
             SecretAgent();
             break;
+        case 9:
+            TheBigRace();
+            break;
     }
 }
