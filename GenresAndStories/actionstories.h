@@ -71,66 +71,87 @@ void PiratesSeenNearTheCoastOfNewJersey(){
     cout<<"Noun: ";
     cin.ignore();
     getline(cin, noun1);
+
     cout<<"Plural noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun1);
+
     cout<<"Past tense verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pastTenseVerb1);
+
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun2);
+
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective1);
+
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun3);
+
     cout<<"Past tense verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pastTenseVerb2);
+
     cout<<"Adverb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adverb1);
+
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective2);
+
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective3);
+
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun4);
+
     cout<<"Adverb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adverb2);
+
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun5);
+
     cout<<"Verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verb);
+
     cout<<"Past tense verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pastTenseVerb3);
+
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun6);
+
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun7);
+
     cout<<"Verb ending in ing: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbEndingInIng);
+
     cout<<"Past tense verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pastTenseVerb4);
+
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun8);
+
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective4);
+
     cout<<"Pirates Seen Near The Coast Of New Jersey\n\n";
     cout<<"In the beginning of time in a/an "<<noun1<<" blue two "<<pluralNoun1<<" were sailing in the Inlet near Barnegat New Jersey. One of the pirates named Danell "<<pastTenseVerb1<<" that his "<<noun2<<" were getting "<<adjective1<<". His pirate friend Michael said yo ho, we have hit a/an "<<noun3<<" and we have "<<pastTenseVerb2<<" a leak. The water began to fill the boat "<<adverb1<<" and the pirates were "<<adjective2<<" they would sink and be eaten by "<<adjective3<<" sharks. The sharks began circling the "<<noun4<<". The two pirates had to think "<<adverb2<<". What should we do said Danell. I have "<<noun5<<" and nails we could try to "<<verb<<" the boat with that said Michael. Danell agreed and they got to work, soon they had "<<pastTenseVerb3<<" up the boat. Just then a "<<noun6<<" ran into the boat and broke open the patch they had just finished. Without enough wood to fix it again, their fate looked grim. All of a sudden a school of giant prehistoric "<<noun7<<" came "<<verbEndingInIng<<" by. They swam under the boat and "<<pastTenseVerb4<<" it up to the surface so that it wouldn't sink. The Jellyfish floated the boat all the way back into the "<<noun8<<" and the "<<adjective4<<" pirates were saved.\n\n";
 }
@@ -142,28 +163,35 @@ void WhatHappenedToYou(){
     cout<<"Plural noun: ";
     cin.ignore();
     getline(cin, pluralNoun);
+
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective);   
+
     cout<<"Animal: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, animal);   
+
     cout<<"Number more than one: ";
     number:cin>>numberMoreThanOne;
-    cin.ignore();
+    cin.ignore(1,'\n');
     if(numberMoreThanOne <= 1){
         cout<<"Please enter a number greater than one: ";
         goto number;
     } 
+
     cout<<"Any vehicle: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, anyVehicle);   
+
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun);
+
     cout<<"Body part: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, bodyPart);
+
     cout<<"What Happened To You?!\n\n";
     cout<<"You woke up one morning with a smile on your face.\n\n";
     cout<<"'Time for a road trip'\n\n";
@@ -186,45 +214,47 @@ void TheDayThatZombiesAttack(){
     getline(cin, firstName1);
     
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun1);
     
     cout<<"Verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verb1);
     
     cout<<"First name: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, firstName2);
     
     cout<<"Verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verb2);
     
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective);
     
     cout<<"Verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verb3);
     
     cout<<"Verb: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verb4);
     
     cout<<"Proper noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, properNoun);
     
     cout<<"Number: ";
     cin>>number;
+    cin.ignore(1,'\n');
+
     cout<<"Location: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, location);
     
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun2);
     
     cout<<"The Day The Zombies Attack!\n\n";
@@ -237,212 +267,218 @@ void AWarStory(){
     float year, number1, number2;
     cout<<"Year: ";
     cin>>year;
+    cin.ignore(1,'\n');
+
     cout<<"Occupation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, occupation1);
     
     cout<<"Nationality: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, nationality);
     
     cout<<"Verb - Base Form: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbBaseForm1);
     
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective1);
     
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun1);
     
     cout<<"Location: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, location);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun1);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun2);
     
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun2);
     
     cout<<"Verb - Base Form: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbBaseForm2);
     
     cout<<"Occupation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, occupation2);
     
     cout<<"Verb - Base Form: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbBaseForm3);
     
     cout<<"Exclamation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, exclamation1);
     
     cout<<"Verb - Past Tense: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPastTense1);
     
     cout<<"Verb - Present ends in ING: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPresentEndsInING1);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun3);
     
     cout<<"Verb - Past Tense: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPastTense2);
     
     cout<<"Number: ";
     cin>>number1;
+    cin.ignore(1,'\n');
+
     cout<<"Verb - Present ends in ING: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPresentEndsInING2);
     
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective2);
     
     cout<<"Verb - Past Tense: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPastTense3);
     
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective3);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun4);
     
     cout<<"First Name of a Person: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, firstNameOfAPerson);
     
     cout<<"Occupation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, occupation3);
     
     cout<<"Body part: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, bodyPart);
     
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun3);
     
     cout<<"Occupation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, occupation4);
     
     cout<<"Verb - Past Tense: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPastTense4);
     
     cout<<"Exclamation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, exclamation2);
     
     cout<<"Verb - Past Tense: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPastTense5);
     
     cout<<"Verb - Present ends in ING: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPresentEndsInING3);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun5);
     
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective4);
     
     cout<<"Verb - Present ends in ING: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPresentEndsInING4);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun6);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun7);
     
     cout<<"Number: ";
     cin>>number2;
+    cin.ignore(1,'\n');
+
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective5);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun8);
     
     cout<<"Verb - Past Tense: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPastTense6);
     
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun4);
     
     cout<<"Occupation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, occupation5);
     
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective6);
     
     cout<<"Noun: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, noun5);
     
     cout<<"Verb - Past Tense: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPastTense7);
     
     cout<<"Adjective: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, adjective7);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun9);
     
     cout<<"Verb - Present ends in ING: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPresentEndsInING5);
     
     cout<<"Exclamation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, exclamation3);
     
     cout<<"Exclamation: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, exclamation4);
     
     cout<<"Verb - Past Tense: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, verbPastTense8);
     
     cout<<"Noun - Plural: ";
-    cin.ignore();
+    cin.ignore(0,'\n');
     getline(cin, pluralNoun10);
     
     cout<<"A War Story\n\n";
@@ -450,3 +486,105 @@ void AWarStory(){
     cout<<"We "<<verbPastTense1<<" to our "<<verbPresentEndsInING1<<" "<<pluralNoun3<<", and we were "<<verbPastTense2<<" after "<<number1<<" hours of "<<verbPresentEndsInING2<<". We had to be "<<adjective2<<", and "<<verbPastTense3<<" behind "<<adjective3<<" "<<pluralNoun4<<". "<<firstNameOfAPerson<<", a/an "<<occupation3<<", lifted his "<<bodyPart<<" and was hit by an enemy "<<noun3<<". My "<<occupation4<<" "<<verbPastTense4<<", "<<exclamation2<<" and we all "<<verbPastTense5<<", "<<verbPresentEndsInING3<<" "<<pluralNoun5<<" at them. A "<<adjective4<<" explosion went off in the distance, "<<verbPresentEndsInING4<<" "<<pluralNoun6<<" and "<<pluralNoun7<<" eveywhere. "<<number2<<" "<<adjective5<<pluralNoun8<<" were "<<verbPastTense6<<", and we were starting to lose "<<noun4<<". Just when we thought it was all over, my "<<occupation5<<" called in a secret weapon: The "<<adjective6<<" "<<noun5<<". When it was "<<verbPastTense7<<" onto our enemies, we could see "<<adjective7<<" "<<pluralNoun9<<" "<<verbPresentEndsInING5<<" everywhere, and we could hear them call out, "<<exclamation3<<" and "<<exclamation4<<". We all "<<verbPastTense8<<", because we had won. All of the "<<pluralNoun10<<" belonged to us.\n";
     //I want to kill myself
 }   
+
+void ARegularDayAtHogwarts(){
+    system("CLS");
+    string firstName1, firstName2, firstName3, firstName4, firstName5, firstName6, firstName7, firstName8, firstName9, firstName10, lastName1, lastName2, lastName3, lastName4, lastName5, lastName6, lastName7, location, adjective, furniture, electronics1, electronics2;
+    cout<<"Location: ";
+    cin.ignore();
+    getline(cin, location);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName1);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName2);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName3);
+
+    cout<<"Last name: ";
+    cin.ignore(0,'\n');
+    getline(cin, lastName1);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName4);
+
+    cout<<"Last name: ";
+    cin.ignore(0,'\n');
+    getline(cin, lastName2);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName5);
+
+    cout<<"Last name: ";
+    cin.ignore(0,'\n');
+    getline(cin, lastName3);
+
+    cout<<"Last name: ";
+    cin.ignore(0,'\n');
+    getline(cin, lastName4);
+
+    cout<<"Adjective: ";
+    cin.ignore(0,'\n');
+    getline(cin, adjective);
+    
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName6);
+    
+    cout<<"Last name: ";
+    cin.ignore(0,'\n');
+    getline(cin, lastName5);
+
+    cout<<"Last name: ";
+    cin.ignore(0,'\n');
+    getline(cin, lastName6);
+
+    cout<<"Furniture: ";
+    cin.ignore(0,'\n');
+    getline(cin, furniture);
+
+    cout<<"Electronics: ";
+    cin.ignore(0,'\n');
+    getline(cin, electronics1);
+
+    cout<<"Electronics: ";
+    cin.ignore(0,'\n');
+    getline(cin, electronics2);
+
+    cout<<"Last name: ";
+    cin.ignore(0,'\n');
+    getline(cin, lastName7);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName7);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName8);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName9);
+
+    cout<<"First name: ";
+    cin.ignore(0,'\n');
+    getline(cin, firstName10);
+
+    cout<<"A Regular Day At Hogwarts (Or Not)\n\n";
+    cout<<"One day at "<<location<<" Witchcraft and Wizardry school, "<<firstName1<<", "<<firstName2<<" and "<<firstName3<<" were just going to classes like a regular day, but then they found out they had a new defence against the dark arts teacher! His name was professor "<<lastName1<<" and he was as silly as "<<firstName4<<" was smart!\n";
+    cout<<"When everyone was in the classroom, pro. "<<lastName2<<" said; 'I am your new defence against the dark arts teacher. Today we will start with the spell against the dreaded LAMP!'\n";
+    cout<<firstName5<<" instantly shot up her hand; 'Pro. "<<lastName3<<" the lamp is not dreaded. They are just a lamp that provides light'\n";
+    cout<<"'Oh no, you must be mistaken', said pro. "<<lastName4<<". 'It is very "<<adjective<<". Now who knows the spell against it?'\n";
+    cout<<firstName6<<" raised his hand. He said; 'Isn't it 'Aclomonus Ecotomus'?'\n";
+    cout<<"'That is correct', said "<<lastName5<<". Pro. "<<lastName6<<" continued on about how to defend yourself against "<<furniture<<" "<<electronics1<<" "<<electronics2<<" and lots of other silly things. Everyone question pro. "<<lastName7<<" asked, "<<firstName7<<" answered and got it correct. When class ws over, "<<firstName8<<" said, 'Wow "<<firstName9<<" we didn't know you had it in you'\n";
+    cout<<"'Yep, I wish every day was like this. Didn't you hear he was actually only a sub?' "<<firstName10<<" spoke up.\n";
+    cout<<"'Oh no, I can't imagine what tomorrow will be like.'\n";
+}

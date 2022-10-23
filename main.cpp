@@ -24,6 +24,7 @@ int main(){
     cout<<"Would you like to play again? (Y/N)\n";
     cin>>playAgain;
     if(playAgain == "Yes" || playAgain == "yes" || playAgain == "y" || playAgain == "Y"){
+        //This not worky :(
         goto again;
     }
     else if(playAgain == "No" || playAgain == "no" || playAgain == "n" || playAgain == "N"){

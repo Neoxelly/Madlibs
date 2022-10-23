@@ -2,7 +2,7 @@
 
 *** Some stuff I need to fix/add ***
 
-- Fix input to accept multiple lines
+- Fix input to accept multiple lines - Done!
 - Fix the option to play again
 - Finish Action stories
 - Add Adventure genre after Action stories
