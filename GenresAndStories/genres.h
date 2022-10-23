@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include "actionstories.h"
+#include "adventurestories.h"
 using namespace std;
 void Action(){
     int actionSelection;
