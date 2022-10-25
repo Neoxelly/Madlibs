@@ -2,6 +2,10 @@
 #include <string>
 #include "WorldsGreatestGame/WorldsGreatestGame.h"
 #include "GenresAndStories/genres.h"
+/*
+    Author: Danin Sadžak
+                @Neoxelly
+*/
 using namespace std;
 int main(){
     string Choice;
