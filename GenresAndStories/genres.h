@@ -64,5 +64,10 @@ void Adventure(){
     cout<<"5. MINERAFT                                                                              10. Pretty Little Liars\n\n";
     cout<<"(Note: Use numbers from 1-10!)\n";
     cin>>adventureSelection;
-    //WIP                                                                                                 
+    //WIP   
+    switch(adventureSelection){
+        case 1:
+            MyBabysFirstBirthday();
+            break;
+    }                                                                                              
 }                                
