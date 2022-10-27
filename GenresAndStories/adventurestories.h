@@ -265,7 +265,7 @@ void AColdWinterDay(){
     cin.ignore(0, '\n');
     getline(cin, pluralClothing);
 
-    cout<<"Verb ending in ed:";
+    cout<<"Verb ending in ed: ";
     cin.ignore(0, '\n');
     getline(cin, verbEndingInEd1);
 
@@ -366,5 +366,6 @@ void AColdWinterDay(){
 }
 
 void RoadTripAdventures(){
-    
+    string verbEndingInIng, anyPlace1, anyPlace2, anyPlace3, anyPlace4, adjective1, adjective2, adjective3, adjective4, adjective5, pluralNoun1, pluralNoun2, pluralNoun3, pluralNoun4, pluralNoun5, transportation1, transportation2, transportation3, daysHoursWeeksSeconds, food1, food2, animal1, animal2, animal3, verb1, verb2, liquid1, liquid2, weatherEndingInIng, noun1, noun2, roomOfHouse, emotion, bodyOfWater, nationality, adverb, yesOrNo, occupation;
+     
 }
