@@ -229,6 +229,7 @@ void MyBabysFirstBirthday(){
 }
 
 void AColdWinterDay(){
+    system("CLS");
     string adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, adjective7, adjective8, color1, color2, color3, earthlySubstance, articleOfClothing1, articleOfClothing2, pluralClothing, verbEndingInEd1, verbEndingInEd2, verbEndingInEd3, pluralBodyPart1, pluralBodyPart2, adverb1, adverb2, noun1, noun2, noun3, liquid, singleBodyPart, pluralNoise, pluralNoun, singlePieceOfClothing;
     float number;
     
@@ -357,4 +358,13 @@ void AColdWinterDay(){
     getline(cin, adjective8);
 
     cout<<"A Cold Winter Day:\n\n";
+    cout<<"I looked out of my "<<number<<" story window and saw "<<adjective1<<" flakes of beautiful "<<color1<<" snow falling from the morning sky.\n";
+    cout<<"I stepped outside and immediately felt a rush of "<<adjective2<<", "<<adjective3<<" "<<earthlySubstance<<". I put on my double-layered "<<articleOfClothing1<<" and snow-"<<pluralClothing<<" and "<<verbEndingInEd1<<" outside again.\n";
+    cout<<"The snow was up to my "<<pluralBodyPart1<<", I "<<verbEndingInEd2<<" through it "<<adverb1<<" and tried to find my snow-"<<noun1<<" to shovel the pathway but it was buried deep beneath. I used my "<<pluralBodyPart2<<" to dig it up, but before I knew it they grew "<<adjective4<<" and frost bitten.\n";
+    cout<<"I had to forget about the snow-"<<noun1<<". I stood back up and headed home but as I "<<verbEndingInEd3<<", more "<<color2<<" stuff tumbled down creating mountains of cold "<<adjective5<<" "<<liquid<<" before me. I lifted my "<<singleBodyPart<<" as high as possible and almost reaching home, I slip and fall on a "<<noun2<<" covered in ice that's built beneath the snow.\n";
+    cout<<"I hear "<<pluralNoise<<" and "<<adverb2<<" wonder if I'll fall through, I slowly work my way there and push the "<<noun3<<". I'm finally inside! I gather old "<<pluralNoun<<" and light a "<<adjective6<<" fire, take off my "<<articleOfClothing2<<" and wrap myself in a "<<adjective7<<" "<<color3<<" "<<singlePieceOfClothing<<" all cozy and "<<adjective8<<"!\n";
+}
+
+void RoadTripAdventures(){
+    
 }

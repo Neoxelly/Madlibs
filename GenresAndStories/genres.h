@@ -69,5 +69,8 @@ void Adventure(){
         case 1:
             MyBabysFirstBirthday();
             break;
+        case 2:
+            AColdWinterDay();
+            break;
     }                                                                                              
 }                                
