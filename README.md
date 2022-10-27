@@ -5,4 +5,4 @@ NOTE: The project is not yet finished, I am working on it as a side project.
 
 # How to play
 - After installing it, open the terminal, find the location where the file is in and open main.exe
-- Or open the folder and enjoy!
+- Or open the folder, find main.exe, open it and enjoy!
