@@ -3,7 +3,6 @@
 ***Some stuff I need to fix/add***
 
 - Fix the option to play again
-- Finish Action stories
 - Add Adventure genre after Action stories
 
 ***Stuff that's done***
