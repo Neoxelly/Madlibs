@@ -227,3 +227,134 @@ void MyBabysFirstBirthday(){
     cout<<"He even got cards that literally "<<verbEndingInEd1<<", and one "<<adjective6<<" card from his daddy and said; 'You are my "<<adjective7<<" boy. Hope you have a/an "<<adjective8<<" time turning "<<number2<<". Love, "<<nameofPerson2<<"'.\n";
     cout<<"Then we took photos of my boy sitting on a high "<<animal2<<", stuffing his face with "<<foodPlural<<", his friend Jill jumping on a "<<noun7<<" and another kid who fell asleep under a "<<noun8<<" curled up holding a "<<noun9<<", I guess he had a little too much "<<liquid<<"! Soon after, the party was "<<adjective9<<". I tucked his little tired out body in his "<<noun10<<" and read a "<<longOrShort<<" story called 'The "<<animal3<<" who "<<verbEndingInEd2<<" his "<<noun11<<"' and before I knew it, I looked over to see a/an "<<adjective10<<" boy sucking his little "<<bodyPart<<" and sleeping sound. It was a/an "<<adjective11<<" day!\n";
 }
+
+void AColdWinterDay(){
+    string adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, adjective7, adjective8, color1, color2, color3, earthlySubstance, articleOfClothing1, articleOfClothing2, pluralClothing, verbEndingInEd1, verbEndingInEd2, verbEndingInEd3, pluralBodyPart1, pluralBodyPart2, adverb1, adverb2, noun1, noun2, noun3, liquid, singleBodyPart, pluralNoise, pluralNoun, singlePieceOfClothing;
+    float number;
+    
+    cout<<"Number: ";
+    cin>>number;
+    cin.ignore(1, '\n');
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective1);
+
+    cout<<"Color: ";
+    cin.ignore(0, '\n');
+    getline(cin, color1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
+    cout<<"Earthly substance: ";
+    cin.ignore(0, '\n');
+    getline(cin, earthlySubstance);
+
+    cout<<"Article of clothing: ";
+    cin.ignore(0, '\n');
+    getline(cin, articleOfClothing1);
+
+    cout<<"Clothing (plural): ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralClothing);
+
+    cout<<"Verb ending in ed:";
+    cin.ignore(0, '\n');
+    getline(cin, verbEndingInEd1);
+
+    cout<<"Plural body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralBodyPart1);
+
+    cout<<"Verb ending in ed: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbEndingInEd2);
+
+    cout<<"Adverb: ";
+    cin.ignore(0, '\n');
+    getline(cin, adverb1);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Plural body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralBodyPart2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective4);
+
+    cout<<"Verb ending in ed: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbEndingInEd3);
+
+    cout<<"Color: ";
+    cin.ignore(0, '\n');
+    getline(cin, color2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective5);
+
+    cout<<"Liquid: ";
+    cin.ignore(0, '\n');
+    getline(cin, liquid);
+
+    cout<<"Single body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, singleBodyPart);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Plural noise: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoise);
+
+    cout<<"Adverb: ";
+    cin.ignore(0, '\n');
+    getline(cin, adverb2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun3);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective6);
+
+    cout<<"Article of clothing: ";
+    cin.ignore(0, '\n');
+    getline(cin, articleOfClothing2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective7);
+
+    cout<<"Color: ";
+    cin.ignore(0, '\n');
+    getline(cin, color3);
+    
+    cout<<"Single piece of clothing: ";
+    cin.ignore(0, '\n');
+    getline(cin, singlePieceOfClothing);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective8);
+
+    cout<<"A Cold Winter Day:\n\n";
+}
