@@ -368,4 +368,157 @@ void AColdWinterDay(){
 void RoadTripAdventures(){
     string verbEndingInIng, anyPlace1, anyPlace2, anyPlace3, anyPlace4, adjective1, adjective2, adjective3, adjective4, adjective5, pluralNoun1, pluralNoun2, pluralNoun3, pluralNoun4, pluralNoun5, transportation1, transportation2, transportation3, daysHoursWeeksSeconds, food1, food2, animal1, animal2, animal3, verb1, verb2, liquid1, liquid2, weatherEndingInIng, noun1, noun2, roomOfHouse, emotion, bodyOfWater, nationality, adverb, yesOrNo, occupation;
      
+    cout<<"Verb ending in ing: ";
+    cin.ignore();
+    getline(cin, verbEndingInIng);
+
+    cout<<"Any place: ";
+    cin.ignore(0, '\n');
+    getline(cin, anyPlace1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective1);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun1);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun2);
+
+    cout<<"Any place: ";
+    cin.ignore(0, '\n');
+    getline(cin, anyPlace2);
+
+    cout<<"Transportation: ";
+    cin.ignore(0, '\n');
+    getline(cin, transportation1);
+
+    cout<<"Days, hours, weeks, or seconds?: ";
+    cin.ignore(0, '\n');
+    getline(cin, daysHoursWeeksSeconds);
+
+    cout<<"Food: ";
+    cin.ignore(0, '\n');
+    getline(cin, food1);
+
+    cout<<"Any place: ";
+    cin.ignore(0, '\n');
+    getline(cin, anyPlace3);
+
+    cout<<"Animal: ";
+    cin.ignore(0, '\n');
+    getline(cin, animal1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb1);
+
+    cout<<"Liquid: ";
+    cin.ignore(0, '\n');
+    getline(cin, liquid1);
+
+    cout<<"Weather ending in ing: ";
+    cin.ignore(0, '\n');
+    getline(cin, weatherEndingInIng);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun3);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun4);
+
+    cout<<"Transportation: ";
+    cin.ignore(0, '\n');
+    getline(cin, transportation2);
+
+    cout<<"Liquid: ";
+    cin.ignore(0, '\n');
+    getline(cin, liquid2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Room of house: ";
+    cin.ignore(0, '\n');
+    getline(cin, roomOfHouse);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun5);
+
+    cout<<"Emotion: ";
+    cin.ignore(0, '\n');
+    getline(cin, emotion);
+
+    cout<<"Any place: ";
+    cin.ignore(0, '\n');
+    getline(cin, anyPlace4);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
+    cout<<"Body of water: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyOfWater);
+
+    cout<<"Nationality: ";
+    cin.ignore(0, '\n');
+    getline(cin, nationality);
+
+    cout<<"Transportation: ";
+    cin.ignore(0, '\n');
+    getline(cin, transportation3);
+
+    cout<<"Adverb: ";
+    cin.ignore(0, '\n');
+    getline(cin, adverb);
+
+    cout<<"Yes or no?: ";
+    cin.ignore(0, '\n');
+    getline(cin, yesOrNo);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective4);
+
+    cout<<"Animal (plural): ";
+    cin.ignore(0, '\n');
+    getline(cin, animal2);
+
+    cout<<"Animal (plural): ";
+    cin.ignore(0, '\n');
+    getline(cin, animal3);
+
+    cout<<"Occupation: ";
+    cin.ignore(0, '\n');
+    getline(cin, occupation);
+
+    cout<<"Food: ";
+    cin.ignore(0, '\n');
+    getline(cin, food2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective5);
+
+    cout<<"Road Trip Adventures\n\n";
 }
