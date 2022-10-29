@@ -528,3 +528,8 @@ void RoadTripAdventures(){
     cout<<"Before we knew it, it was raining "<<pluralNoun3<<" and "<<pluralNoun4<<". We all hitched a ride on the back of a "<<transportation2<<" until the "<<liquid2<<" stopped, we dried off at a/an "<<noun2<<" store and freshened up in their "<<roomOfHouse<<". Then I noticed I left my purse behind! We needed our "<<pluralNoun5<<" and stuff! We were so "<<emotion<<" that we ended up having to buy some at the "<<anyPlace4<<" across the street.\n";
     cout<<"After a/an "<<adjective3<<" picnic by the "<<bodyOfWater<<", we asked a "<<nationality<<" man if we could borrow his "<<transportation3<<" so we could get to the next town, he "<<adverb<<" said "<<yesOrNo<<". The ride was "<<adjective4<<", we saw "<<animal2<<" and "<<animal3<<" along the way, we even picked up a/an "<<occupation<<" who offered us "<<food2<<"! It was a/an "<<adjective5<<" trip!\n";
 }
+
+void TheTradegyOfDarthPlagueis(){
+    string conjuction, properNoun1, properNoun2, properNoun3, properNoun4, properNoun5, properNoun6, properNoun7, properNoun8, properNoun9, determiner, noun1, noun2, noun3, noun4, noun5, adjective1, adjective2, adjective3, adjective4, adjective5, pluralNoun1, pluralNoun2, verbPresentTense, adverb, pronoun;
+    
+}
