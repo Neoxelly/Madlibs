@@ -642,3 +642,45 @@ void TheTradegyOfDarthPlagueis(){
     cout<<"He had such a knowledge of the "<<adjective2<<" side that he could even keep the ones he cared about from "<<verbPresentTense<<". The "<<adjective3<<" side of the "<<properNoun9<<" is a pathway to many "<<pluralNoun2<<" some consider it to be "<<adjective4<<". He became so "<<adjective5<<".\n";
     cout<<"The only thing he was afraid of was losing his "<<noun2<<", which eventually, of course, he did. "<<adverb<<", he taught his "<<noun3<<" "<<noun4<<" he knew, then his "<<noun5<<" killed him in his sleep. Ironic. He could save others from death, but not "<<pronoun<<".\n";
 }
+
+void MINERAFT(){
+    string pluralAnimal, properPluralNoun1, properPluralNoun2, properPluralNoun3, adjectiveEndsInEST1, adjectiveEndsInEST2, location;
+    float year;
+
+    cout<<"Animal - Plural: ";
+    cin.ignore();
+    getline(cin, pluralAnimal);
+
+    cout<<"Proper Noun Plural: ";
+    cin.ignore(0, '\n');
+    cin.ignore(cin, properPluralNoun1);
+
+    cout<<"Year: ";
+    cin>>year;
+    cin.ignore(1, '\n');
+
+    cout<<"Proper Noun Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, properPluralNoun2);
+
+    cout<<"Proper Noun Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, properPluralNoun3);
+
+    cout<<"Adjective that ends in est: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjectiveEndsInEST1);
+
+    cout<<"Location: ";
+    cin.ignore(0, '\n');
+    getline(cin, location);
+
+    cout<<"Adjective that ends in est: "
+    cin.ignore(0, '\n');
+    getline(cin, adjectiveEndsInEST2);
+
+    cout<<"MINERAFT\n\n";
+    cout<<pluralAnimal<<" PLAYING MINECRAFT, I LIKE "<<properPluralNoun1<<" G, BAM BAM BAM BAM BAM E E E E E E MAZE LIKE CUT JY JUST RIGHT "<<year<<" YEAH YEAHYE "<<properPluralNoun2<<" "<<properPluralNoun3<<" YEHA UENAYE AHYE "<<adjectiveEndsInEST1<<" YANWYEHW AYWBA "<<location<<" AH WYAH EYSH EYHEUT FU UT FUTJF UTJF UTJF UTJF "<<adjectiveEndsInEST2<<'\n';   
+    //What the fuck?
+}
+
