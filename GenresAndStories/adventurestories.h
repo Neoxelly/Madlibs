@@ -530,6 +530,7 @@ void RoadTripAdventures(){
 }
 
 void TheTradegyOfDarthPlagueis(){
+    system("CLS");
     string conjuction, properNoun1, properNoun2, properNoun3, properNoun4, properNoun5, properNoun6, properNoun7, properNoun8, properNoun9, determiner, noun1, noun2, noun3, noun4, noun5, adjective1, adjective2, adjective3, adjective4, adjective5, pluralNoun1, pluralNoun2, verbPresentTense, adverb, pronoun;
     cout<<"Preposition or subordinating conjuction: ";
     cin.ignore();
@@ -635,4 +636,9 @@ void TheTradegyOfDarthPlagueis(){
     cin.ignore(0, '\n');
     getline(cin, pronoun);
     
+    cout<<"Did You Ever Hear The Tragedy Of Darth Plagueis The Wise?\n\n";
+    cout<<"Did you ever hear of the "<<conjuction<<" of "<<properNoun1<<" "<<determiner<<" The Wise? I thought not. It's not a story the "<<properNoun2<<" would tell you. \n";
+    cout<<"It's a "<<properNoun3<<" "<<noun1<<". "<<properNoun4<<" "<<properNoun5<<" was a "<<adjective1<<" "<<properNoun6<<" of the "<<properNoun7<<", so powerful and so wise he could use the "<<properNoun8<<" to influence the "<<pluralNoun1<<" to create life.\n";
+    cout<<"He had such a knowledge of the "<<adjective2<<" side that he could even keep the ones he cared about from "<<verbPresentTense<<". The "<<adjective3<<" side of the "<<properNoun9<<" is a pathway to many "<<pluralNoun2<<" some consider it to be "<<adjective4<<". He became so "<<adjective5<<".\n";
+    cout<<"The only thing he was afraid of was losing his "<<noun2<<", which eventually, of course, he did. "<<adverb<<", he taught his "<<noun3<<" "<<noun4<<" he knew, then his "<<noun5<<" killed him in his sleep. Ironic. He could save others from death, but not "<<pronoun<<".\n";
 }

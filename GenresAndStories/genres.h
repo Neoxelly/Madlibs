@@ -75,5 +75,8 @@ void Adventure(){
         case 3:
             RoadTripAdventures();
             break;
+        case 4:
+            TheTradegyOfDarthPlagueis();
+            break;
     }                                                                                              
 }                                
