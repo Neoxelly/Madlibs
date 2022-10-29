@@ -531,5 +531,108 @@ void RoadTripAdventures(){
 
 void TheTradegyOfDarthPlagueis(){
     string conjuction, properNoun1, properNoun2, properNoun3, properNoun4, properNoun5, properNoun6, properNoun7, properNoun8, properNoun9, determiner, noun1, noun2, noun3, noun4, noun5, adjective1, adjective2, adjective3, adjective4, adjective5, pluralNoun1, pluralNoun2, verbPresentTense, adverb, pronoun;
+    cout<<"Preposition or subordinating conjuction: ";
+    cin.ignore();
+    getline(cin, conjuction);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun1);
+
+    cout<<"Determiner: ";
+    cin.ignore(0, '\n');
+    getline(cin, determiner);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun2);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun3);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun4);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun5);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective1);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun6);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun7);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun8);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Verb - Present Tense: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbPresentTense);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun9);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective4);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective5);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Adverb: ";
+    cin.ignore(0, '\n');
+    getline(cin, adverb);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun3);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun4);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun5);
+
+    cout<<"Pronoun: ";
+    cin.ignore(0, '\n');
+    getline(cin, pronoun);
     
 }
