@@ -78,5 +78,8 @@ void Adventure(){
         case 4:
             TheTradegyOfDarthPlagueis();
             break;
+        case 5:
+            MINERAFT();
+            break;
     }                                                                                              
 }                                

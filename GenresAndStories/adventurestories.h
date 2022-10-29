@@ -644,6 +644,7 @@ void TheTradegyOfDarthPlagueis(){
 }
 
 void MINERAFT(){
+    system("CLS");
     string pluralAnimal, properPluralNoun1, properPluralNoun2, properPluralNoun3, adjectiveEndsInEST1, adjectiveEndsInEST2, location;
     float year;
 
@@ -653,7 +654,7 @@ void MINERAFT(){
 
     cout<<"Proper Noun Plural: ";
     cin.ignore(0, '\n');
-    cin.ignore(cin, properPluralNoun1);
+    getline(cin, properPluralNoun1);
 
     cout<<"Year: ";
     cin>>year;
@@ -675,7 +676,7 @@ void MINERAFT(){
     cin.ignore(0, '\n');
     getline(cin, location);
 
-    cout<<"Adjective that ends in est: "
+    cout<<"Adjective that ends in est: ";
     cin.ignore(0, '\n');
     getline(cin, adjectiveEndsInEST2);
 
