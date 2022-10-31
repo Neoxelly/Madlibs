@@ -687,5 +687,142 @@ void MINERAFT(){
 
 void SwimmingLessons(){
     string pieceOfClothing, adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, bodyPart1, bodyPart2, bodyPart3, bodyPart4, bodyPart5, liquid1, liquid2, liquid3, animal1, animal2, animal3, pluralBodyPart1, pluralBodyPart2, pluralBodyPart3, pluralBodyPart4, verb1, verb2, verbEndingInIng, direction, pluralNoun1, pluralNoun2, noun1, noun2, noun3, earthlySubstance, emotion, adjectiveEndingInEst;
-     
+
+    cout<<"Piece of clothing: ";
+    cin.ignore();
+    getline(cin, pieceOfClothing);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart1);
+
+    cout<<"Liquid: ";
+    cin.ignore(0, '\n');
+    getline(cin, liquid1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
+    cout<<"Animal: ";
+    cin.ignore(0, '\n');
+    getline(cin, animal1);
+
+    cout<<"Plural body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralBodyPart1);
+
+    cout<<"Plural body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralBodyPart2);
+
+    cout<<"Liquid: ";
+    cin.ignore(0, '\n');
+    getline(cin, liquid2);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb1);
+
+    cout<<"Verb ending in ing: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbEndingInIng);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart2);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart3);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart4);
+
+    cout<<"Plural body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralBodyPart3);
+
+    cout<<"Animal: ";
+    cin.ignore(0, '\n');
+    getline(cin, animal2);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb2);
+
+    cout<<"Direction: ";
+    cin.ignore(0, '\n');
+    getline(cin, direction);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart5);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun1);
+
+    cout<<"Plural body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralBodyPart4);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun3);
+
+    cout<<"Animal: ";
+    cin.ignore(0, '\n');
+    getline(cin, animal3);
+
+    cout<<"Earthly substance: ";
+    cin.ignore(0, '\n');
+    getline(cin, earthlySubstance);
+
+    cout<<"Emotion: ";
+    cin.ignore(0, '\n');
+    getline(cin, emotion);
+
+    cout<<"Liquid: ";
+    cin.ignore(0, '\n');
+    getline(cin, liquid3);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective4);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective5);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective6);
+
+    cout<<"Adjective ending in est: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjectiveEndingInEst);
+
+    
 }
