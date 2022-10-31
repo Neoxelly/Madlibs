@@ -685,6 +685,7 @@ void MINERAFT(){
     //What the fuck?
 }
 
-void swimmingLessons(){
-    
+void SwimmingLessons(){
+    string pieceOfClothing, adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, bodyPart1, bodyPart2, bodyPart3, bodyPart4, bodyPart5, liquid1, liquid2, liquid3, animal1, animal2, animal3, pluralBodyPart1, pluralBodyPart2, pluralBodyPart3, pluralBodyPart4, verb1, verb2, verbEndingInIng, direction, pluralNoun1, pluralNoun2, noun1, noun2, noun3, earthlySubstance, emotion, adjectiveEndingInEst;
+     
 }
