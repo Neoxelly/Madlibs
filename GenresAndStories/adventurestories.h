@@ -685,3 +685,6 @@ void MINERAFT(){
     //What the fuck?
 }
 
+void swimmingLessons(){
+    
+}
