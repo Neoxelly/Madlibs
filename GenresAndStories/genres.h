@@ -81,5 +81,8 @@ void Adventure(){
         case 5:
             MINERAFT();
             break;
+        case 6:
+            SwimmingLessons();
+            break;
     }                                                                                              
 }                                

@@ -686,6 +686,7 @@ void MINERAFT(){
 }
 
 void SwimmingLessons(){
+    system("CLS");
     string pieceOfClothing, adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, bodyPart1, bodyPart2, bodyPart3, bodyPart4, bodyPart5, liquid1, liquid2, liquid3, animal1, animal2, animal3, pluralBodyPart1, pluralBodyPart2, pluralBodyPart3, pluralBodyPart4, verb1, verb2, verbEndingInIng, direction, pluralNoun1, pluralNoun2, noun1, noun2, noun3, earthlySubstance, emotion, adjectiveEndingInEst;
 
     cout<<"Piece of clothing: ";
@@ -824,5 +825,13 @@ void SwimmingLessons(){
     cin.ignore(0, '\n');
     getline(cin, adjectiveEndingInEst);
 
-    
+    cout<<"Swimming Lessons!\n\n";
+    cout<<"Today, you are going to learn how to become a great swimmer!\n\n";
+    cout<<"First, you need a "<<pieceOfClothing<<". Make sure it's comfortable and not "<<adjective1<<". First lets start out at the "<<adjective2<<" end of the pool.\n";
+    cout<<"Dip your "<<bodyPart1<<" in the "<<liquid1<<" until you're completely "<<adjective3<<". Then once you're in, start with the "<<animal1<<" paddle. Kick your "<<pluralNoun1<<" and "<<pluralBodyPart2<<" like you're whipping "<<liquid2<<".\n";
+    cout<<"You should start to float, if not, "<<verb1<<" your muscles and try again. Once your body is "<<verbEndingInIng<<" freely, lift your "<<bodyPart2<<" and place it in front of your "<<bodyPart3<<". Then do the same with your "<<bodyPart4<<".\n";
+    cout<<"At the same time, kick your "<<pluralBodyPart3<<" like you're a "<<animal2<<" trying to "<<verb2<<". You should see your body starting to move "<<direction<<", keep your "<<bodyPart5<<" in the air at all times and wearing some "<<pluralNoun1<<" can protect your "<<pluralBodyPart4<<".\n";
+    cout<<pluralNoun2<<" and "<<noun1<<" plugs are optional as well. Swim a few strokes around the "<<noun2<<" until you get the hang of it. Next, we can try diving off the "<<noun3<<". Pretend you're an "<<animal3<<" flying freely through the "<<earthlySubstance<<". It's a lot of fun! Once you go under water, remember to kick but stay "<<emotion<<".\n";
+    cout<<"Soon, you'll be able to float on "<<liquid3<<" without effort.\n";
+    cout<<"Swimming is "<<adjective4<<", "<<adjective5<<" and "<<adjective6<<". I hope this step-by-step guide helped you become the "<<adjectiveEndingInEst<<" swimmer!"<<endl;
 }
