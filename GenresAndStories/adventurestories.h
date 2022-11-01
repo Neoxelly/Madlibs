@@ -837,5 +837,5 @@ void SwimmingLessons(){
 }
 
 void JurassicPark(){
-    
+    string verbPresentEndsInIng, adjective1, adjective2, adjective3, adjective, noun, verbPastTense;
 }
