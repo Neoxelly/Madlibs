@@ -877,5 +877,76 @@ void JurassicPark(){
 
 void TalkLikeAPirate(){
     string adjective1, adjective2, adjective3, noun1, noun2, noun3, noun4, noun5, noun6, bodyPart1, bodyPart2, bodyPart3, bodyPart4, verb, adverb, pluralNoun1, pluralNoun2, pluralNoun3;
-     
+
+    cout<<"Adjective: ";
+    cin.ignore();
+    getline(cin, adjective1);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart1);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb);
+
+    cout<<"Adverb: ";
+    cin.ignore(0, '\n');
+    getline(cin, adverb);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun1);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun2);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin,pluralNoun3);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun3);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun4);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart3);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun5);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun6);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart4);
 }
