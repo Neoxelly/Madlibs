@@ -876,5 +876,6 @@ void JurassicPark(){
 }
 
 void TalkLikeAPirate(){
-    
+    string adjective1, adjective2, adjective3, noun1, noun2, noun3, noun4, noun5, noun6, bodyPart1, bodyPart2, bodyPart3, bodyPart4, verb, adverb, pluralNoun1, pluralNoun2, pluralNoun3;
+     
 }
