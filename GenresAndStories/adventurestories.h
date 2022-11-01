@@ -837,5 +837,33 @@ void SwimmingLessons(){
 }
 
 void JurassicPark(){
-    string verbPresentEndsInIng, adjective1, adjective2, adjective3, adjective, noun, verbPastTense;
+    string verbPresentEndsInIng, adjective1, adjective2, adjective3, adjective4, noun, verbPastTense;
+
+    cout<<"Verb in present that ends in ing: ";
+    cin.ignore();
+    getline(cin, verbPastTense);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective4);
+
+    cout<<"Verb in past tense: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbPastTense); 
 }
