@@ -835,3 +835,7 @@ void SwimmingLessons(){
     cout<<"Soon, you'll be able to float on "<<liquid3<<" without effort.\n";
     cout<<"Swimming is "<<adjective4<<", "<<adjective5<<" and "<<adjective6<<". I hope this step-by-step guide helped you become the "<<adjectiveEndingInEst<<" swimmer!"<<endl;
 }
+
+void JurassicPark(){
+    
+}
