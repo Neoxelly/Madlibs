@@ -84,5 +84,8 @@ void Adventure(){
         case 6:
             SwimmingLessons();
             break;
+        case 7:
+            JurassicPark();
+            break;
     }                                                                                              
 }                                

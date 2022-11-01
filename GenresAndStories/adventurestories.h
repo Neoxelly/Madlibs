@@ -837,6 +837,7 @@ void SwimmingLessons(){
 }
 
 void JurassicPark(){
+    system("CLS");
     string verbPresentEndsInIng, adjective1, adjective2, adjective3, adjective4, noun, verbPastTense;
 
     cout<<"Verb in present that ends in ing: ";
@@ -866,4 +867,10 @@ void JurassicPark(){
     cout<<"Verb in past tense: ";
     cin.ignore(0, '\n');
     getline(cin, verbPastTense); 
+
+    cout<<"Jurassic Park\n\n";
+    cout<<"On Isla Nuber Dr. Robert Muldoon went "<<verbPresentEndsInIng<<" for the "<<adjective1<<" raptors.\n";
+    cout<<"He walked through the "<<adjective2<<" forest and saw a raptor, he pulled out his "<<noun<<" and aimed at the raptor.\n";
+    cout<<"One snuck up from behind him, he turned and said "<<adjective3<<" girl.\n";
+    cout<<"The "<<adjective4<<" raptor "<<verbPastTense<<" on him and ate him and that was that.\n";
 }
