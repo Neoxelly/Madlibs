@@ -87,5 +87,8 @@ void Adventure(){
         case 7:
             JurassicPark();
             break;
+        case 8:
+            TalkLikeAPirate();
+            break;
     }                                                                                              
 }                                

@@ -876,6 +876,7 @@ void JurassicPark(){
 }
 
 void TalkLikeAPirate(){
+    system("CLS");
     string adjective1, adjective2, adjective3, noun1, noun2, noun3, noun4, noun5, noun6, bodyPart1, bodyPart2, bodyPart3, bodyPart4, verb, adverb, pluralNoun1, pluralNoun2, pluralNoun3;
 
     cout<<"Adjective: ";
@@ -949,4 +950,10 @@ void TalkLikeAPirate(){
     cout<<"Body part: ";
     cin.ignore(0, '\n');
     getline(cin, bodyPart4);
+
+    cout<<"Talk Like A Pirate\n\n";
+    cout<<"Ye can always pretend to be a "<<adjective1<<" "<<noun1<<", threatening everyone by waving yer "<<adjective2<<" "<<bodyPart1<<" in the air, but until ye learn to "<<verb<<" like a pirate, you'll never be "<<adverb<<" accepted as an authentic "<<noun2<<".\n";
+    cout<<"So here's what ye do: cleverly work into yer daily conversations "<<adjective3<<" pirate phrases such as: 'Ahoy there "<<pluralNoun1<<", Avast ye "<<pluralNoun2<<", and Shiver me "<<pluralNoun3<<".'\n";
+    cout<<"Remember to drop all yer g's when ye say such words as sailin', spitting', and fightin'. This will give ye a/an "<<bodyPart2<<" start to being recognised as a swashbucklin' "<<noun3<<". Once ye have the lingo down pat, it helps to wear a three-cornered "<<noun4<<" on yer "<<bodyPart3<<", stash a/an "<<noun5<<" in yer pants and keep a "<<noun6<<" perched atop yer "<<bodyPart4<<".\n";
+    cout<<"Ayo, now ye be a real pirate!\n";
 }
