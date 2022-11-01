@@ -874,3 +874,7 @@ void JurassicPark(){
     cout<<"One snuck up from behind him, he turned and said "<<adjective3<<" girl.\n";
     cout<<"The "<<adjective4<<" raptor "<<verbPastTense<<" on him and ate him and that was that.\n";
 }
+
+void TalkLikeAPirate(){
+    
+}
