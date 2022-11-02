@@ -959,5 +959,6 @@ void TalkLikeAPirate(){
 }
 
 void TheMonster(){
-    
+    string adjective1, adjective2, adjective3, adjective4, adjective5, adjectiveEndingInEst, verbPresentIng, location, noun1, noun2, noun3, verbBaseForm1, verbBaseForm2, monster, verbPastTense1, verbPastTense2, bodyPart1, bodyPart2, typeOfVehicle, adverb;
+    float number1, number2;
 }
