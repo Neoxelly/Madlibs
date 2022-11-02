@@ -957,3 +957,7 @@ void TalkLikeAPirate(){
     cout<<"Remember to drop all yer g's when ye say such words as sailin', spitting', and fightin'. This will give ye a/an "<<bodyPart2<<" start to being recognised as a swashbucklin' "<<noun3<<". Once ye have the lingo down pat, it helps to wear a three-cornered "<<noun4<<" on yer "<<bodyPart3<<", stash a/an "<<noun5<<" in yer pants and keep a "<<noun6<<" perched atop yer "<<bodyPart4<<".\n";
     cout<<"Ayo, now ye be a real pirate!\n";
 }
+
+void TheMonster(){
+    
+}
