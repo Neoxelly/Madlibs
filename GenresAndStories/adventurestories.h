@@ -1057,3 +1057,7 @@ void TheMonster(){
     cout<<"I was "<<adjective3<<", but I thought fast. I hit the monster with a "<<noun3<<" on its "<<bodyPart1<<" and made a break for it. Just before I could get back to my "<<typeOfVehicle<<", I felt something "<<adjective4<<" on my "<<bodyPart2<<"!\n";
     cout<<"I didn't even turn to look. I "<<verbPastTense2<<" as "<<adverb<<" as I could, and drove away. It was such a "<<adjective5<<" experience, I couldn't "<<verbBaseForm2<<" for "<<number2<<" days!\n";
 }
+
+void PrettyLittleLiars(){
+    
+}
