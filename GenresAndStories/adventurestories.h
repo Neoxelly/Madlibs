@@ -1062,4 +1062,39 @@ void PrettyLittleLiars(){
     system("CLS");
     string adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, noun1, noun2, properNoun;
     
+    cout<<"Adjective: ";
+    cin.ignore();
+    getline(cin, adjective1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective4);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective5);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Proper noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, properNoun);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective6);
 }
