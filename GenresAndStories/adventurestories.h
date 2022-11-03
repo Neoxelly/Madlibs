@@ -959,6 +959,97 @@ void TalkLikeAPirate(){
 }
 
 void TheMonster(){
+    system("CLS");
     string adjective1, adjective2, adjective3, adjective4, adjective5, adjectiveEndingInEst, verbPresentIng, location, noun1, noun2, noun3, verbBaseForm1, verbBaseForm2, monster, verbPastTense1, verbPastTense2, bodyPart1, bodyPart2, typeOfVehicle, adverb;
     float number1, number2;
+    
+    cout<<"Adjective: ";
+    cin.ignore();
+    getline(cin, adjective1);
+
+    cout<<"Adjective ending in est: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjectiveEndingInEst);
+
+    cout<<"Verb in present ending in ing: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbPresentIng);
+
+    cout<<"Location: ";
+    cin.ignore(0, '\n');
+    getline(cin, location);
+
+    cout<<"Number: ";
+    cin>>number1;
+    cin.ignore(1, '\n');
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Verb - base form: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbBaseForm1);
+
+    cout<<"Monster: ";
+    cin.ignore(0, '\n');
+    getline(cin, monster);
+
+    cout<<"Verb - past tense: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbPastTense1);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+    
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun3);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart1);
+
+    cout<<"Type of vehicle: ";
+    cin.ignore(0, '\n');
+    getline(cin, typeOfVehicle);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective4);
+
+    cout<<"Body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, bodyPart2);
+
+    cout<<"Verb - past tense: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbPastTense2);
+
+    cout<<"Adverb: ";
+    cin.ignore(0, '\n');
+    getline(cin, adverb);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective5);
+
+    cout<<"Verb - base form: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbBaseForm2);
+
+    cout<<"Number: ";
+    cin>>number2;
+    cin.ignore(1, '\n');
+
+    
 }
