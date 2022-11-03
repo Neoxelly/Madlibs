@@ -93,5 +93,8 @@ void Adventure(){
         case 9:
             TheMonster();
             break;
+        case 10:
+            PrettyLittleLiars();
+            break;
     }                                                                                              
 }                                

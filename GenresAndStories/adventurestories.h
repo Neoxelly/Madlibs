@@ -1097,4 +1097,10 @@ void PrettyLittleLiars(){
     cout<<"Adjective: ";
     cin.ignore(0, '\n');
     getline(cin, adjective6);
+
+    cout<<"Pretty Little Liars\n\n";
+    cout<<"Hanna was in her "<<adjective1<<" bedroom looking for an outfit for her "<<adjective2<<" date with Caleb.\n";
+    cout<<"She heard a "<<adjective3<<" knock at the door, it was her "<<adjective4<<" friend Aria. 'Aria, can you help me pick out a "<<adjective5<<" "<<noun1<<" for my dinner date with Caleb?''\n";
+    cout<<"'Of course I can', replied Aria. Just then Hanna got a "<<noun2<<". It was a text from A. Hanna read it outloud to Aria.\n";
+    cout<<"'Pick the "<<properNoun<<" dress Hanna, black is slimming, you don't want to look like a "<<adjective6<<" pink, OINK! OINK!'\n";
 }
