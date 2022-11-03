@@ -90,5 +90,8 @@ void Adventure(){
         case 8:
             TalkLikeAPirate();
             break;
+        case 9:
+            TheMonster();
+            break;
     }                                                                                              
 }                                

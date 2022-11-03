@@ -1051,5 +1051,9 @@ void TheMonster(){
     cin>>number2;
     cin.ignore(1, '\n');
 
-    
+    cout<<"The Monster\n\n";
+    cout<<"In my travels, I have experienced many "<<adjective1<<" things. Probably the "<<adjectiveEndingInEst<<" encounter I've had was when I went "<<verbPresentIng<<" down at "<<location<<".\n";
+    cout<<"It was "<<number1<<" degrees outside, and the weather was "<<adjective2<<". I sat in my "<<noun1<<" waiting for a "<<noun2<<" to "<<verbBaseForm1<<", when all of a sudden, a "<<monster<<" "<<verbPastTense1<<" right in front of me!\n";
+    cout<<"I was "<<adjective3<<", but I thought fast. I hit the monster with a "<<noun3<<" on its "<<bodyPart1<<" and made a break for it. Just before I could get back to my "<<typeOfVehicle<<", I felt something "<<adjective4<<" on my "<<bodyPart2<<"!\n";
+    cout<<"I didn't even turn to look. I "<<verbPastTense2<<" as "<<adverb<<" as I could, and drove away. It was such a "<<adjective5<<" experience, I couldn't "<<verbBaseForm2<<" for "<<number2<<" days!\n";
 }
