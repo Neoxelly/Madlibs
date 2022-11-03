@@ -100,4 +100,11 @@ void Adventure(){
             cout<<"Unknown output. Use numbers from 1-10: ";
             goto input;
     }                                                                                              
-}                                
+}     
+
+void Animal(){
+    int animalSelection;
+    system("CLS");
+    cout<<"You Chose Animal!\n";
+    cout<<"Select which story you want to play\n\n";
+}
