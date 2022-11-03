@@ -107,4 +107,10 @@ void Animal(){
     system("CLS");
     cout<<"You Chose Animal!\n";
     cout<<"Select which story you want to play\n\n";
+    cout<<"1. What Do You Do If YOu See A Dog Off-Leash?                                6. Why Me, Cat God?\n";  
+    cout<<"2. My Dog Spot!                                                              7. Orange Tiger\n";
+    cout<<"3. My Tiger                                                                  8. Taking The Dog For A Walk\n";
+    cout<<"4. The Last Unicorn                                                          9. Pets\n";
+    cout<<"5. Responsibilities Of Owning A Dog                                          10. Gerbil\n\n";
+    
 }
