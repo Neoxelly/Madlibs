@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "actionstories.h"
 #include "adventurestories.h"
+#include "animalstories.h"
 using namespace std;
 void Action(){
     int actionSelection;
@@ -64,7 +65,6 @@ void Adventure(){
     cout<<"5. MINERAFT                                                                              10. Pretty Little Liars\n\n";
     cout<<"(Note: Use numbers from 1-10!)\n";
     input:cin>>adventureSelection;
-    //WIP   
     switch(adventureSelection){
         case 1:
             MyBabysFirstBirthday();
@@ -114,4 +114,10 @@ void Animal(){
     cout<<"5. Responsibilities Of Owning A Dog                                          10. Gerbil\n\n";
     cout<<"(Note, use numbers from 1-10!)\n";
     cin>>animalSelection;
+    //WIP
+    switch(animalSelection){
+        case 1:
+            DogOffLeash();
+            break;
+    }
 }
