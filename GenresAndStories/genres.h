@@ -63,7 +63,7 @@ void Adventure(){
     cout<<"4. Did You Ever Hear The Tragedy Of Darth Plagueis The Wise?                             9. The Monster\n";
     cout<<"5. MINERAFT                                                                              10. Pretty Little Liars\n\n";
     cout<<"(Note: Use numbers from 1-10!)\n";
-    cin>>adventureSelection;
+    input:cin>>adventureSelection;
     //WIP   
     switch(adventureSelection){
         case 1:
@@ -96,5 +96,8 @@ void Adventure(){
         case 10:
             PrettyLittleLiars();
             break;
+        default:
+            cout<<"Unknown output. Use numbers from 1-10: ";
+            goto input;
     }                                                                                              
 }                                
