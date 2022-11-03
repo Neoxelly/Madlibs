@@ -112,5 +112,6 @@ void Animal(){
     cout<<"3. My Tiger                                                                  8. Taking The Dog For A Walk\n";
     cout<<"4. The Last Unicorn                                                          9. Pets\n";
     cout<<"5. Responsibilities Of Owning A Dog                                          10. Gerbil\n\n";
-    
+    cout<<"(Note, use numbers from 1-10!)\n";
+    cin>>animalSelection;
 }
