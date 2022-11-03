@@ -1059,5 +1059,7 @@ void TheMonster(){
 }
 
 void PrettyLittleLiars(){
+    system("CLS");
+    string adjective1, adjective2, adjective3, adjective4, adjective5, adjective6, noun1, noun2, properNoun;
     
 }
