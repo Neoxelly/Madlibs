@@ -142,4 +142,15 @@ void DogOffLeash(){
     cout<<"Noun - Plural: ";
     cin.ignore(0, '\n');
     getline(cin, pluralNoun4);  
+
+    cout<<"What Do You Do When You See A Dog Off-Leash?\n\n";
+    cout<<"These are the questions that come up all the time from people who live in "<<pluralNoun1<<" where dogs run off-leash. And let's face it, not every dog wants to greet a "<<adjective1<<" dog. Not every person enjoys the company of an "<<adjective2<<" dog. And not every off-leash dog is friendly. So what do you do if you see a dog off-leash?\n\n";
+    cout<<"Here are my usual suggestions: \n\n";
+    cout<<"First - don't run. This is counterintuitive, but running will only cause a dog to "<<verbBaseForm1<<" and will likely create more arousal and aggression in the dog if he is already in an aroused state. Instead, stand "<<adjective3<<" at first and then "<<verbBaseForm2<<" away slowly. Yell '"<<shoutOrYell1<<"' or '"<<shoutOrYell2<<"' - This will often make the average dog "<<adjective4<<" enough to leave you alone. But be believable and yell with confidence.\n"; 
+    cout<<"For more persistent dogs, I would try the following:\n\n";
+    cout<<"Take massive amounts of  "<<adjective5<<", high value treats on a walk with you ("<<food1<<", "<<food2<<", "<<food3<<", "<<food4<<" etc.). If you see a "<<adjective6<<" dog throw a big handful of "<<pluralNoun2<<" at the dog in the hope that he will stop to "<<verbBaseForm3<<" the "<<pluralNoun2<<" while you move away.\n";
+    cout<<"Take an umbrella with you on walks - the automatic kind that allows you to push a "<<noun1<<" to open it. Often, having an umbrella open suddenly into the "<<bodyPart<<" of an oncoming dog will scare the dog enough to disorient him and cause him to "<<verbBaseForm4<<". (NOTE: if you are going to "<<verbBaseForm5<<" this method, make sure your dog is used to "<<verbPresentEndsInIng1<<" on the other side of the umbrella when it "<<verbPresentEndsInS<<", or you are likely to freak your own dog out).\n";
+    cout<<"Purschase Spray Shield "<<animal1<<" deterrent to take with you on your walks. This is a form of "<<plantOrFlower<<" spray you can spray at a dog (think mace for dogs. The downside to this product is the dog has to be really "<<adjective7<<" which is why I prefer using treats, but if you wind up trying to break up a "<<animal2<<" fight, this might help).\n";
+    cout<<"If a dog is "<<VerbPresentEndsInIng2<<" full steam at you, it's hard to say if any of these methods will "<<verbBaseForm6<<", but they are worth a "<<noun2<<". Despite the media hype, the "<<adjective8<<" majority of dogs off-leash are not trying to attack "<<pluralNoun3<<". For most dogs, "<<verbPresentEndsInIng3<<" at them or throwing "<<pluralNoun4<<" at them will work fine.\n";
 }
+
