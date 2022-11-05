@@ -154,3 +154,6 @@ void DogOffLeash(){
     cout<<"If a dog is "<<VerbPresentEndsInIng2<<" full steam at you, it's hard to say if any of these methods will "<<verbBaseForm6<<", but they are worth a "<<noun2<<". Despite the media hype, the "<<adjective8<<" majority of dogs off-leash are not trying to attack "<<pluralNoun3<<". For most dogs, "<<verbPresentEndsInIng3<<" at them or throwing "<<pluralNoun4<<" at them will work fine.\n";
 }
 
+void MyDogSpot(){
+    
+}
