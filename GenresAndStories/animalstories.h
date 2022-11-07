@@ -155,5 +155,6 @@ void DogOffLeash(){
 }
 
 void MyDogSpot(){
-    
+    string adjective1, adjective2, adjective3, singleBodyPart1, singleBodyPart2, direction1, direction2, verb1, verb2, verb3, noun1, noun2, noun3, breedOfDog, animal, color1, color2, singlePieceOfClothing1, singlePieceOfClothing2, pluralClothing, season, familyMember, verbEndingInING1, verbEndingInING2, pluralNoun, occupationEndingInING, oldOrYoung, emotion;
+    float number;     
 }
