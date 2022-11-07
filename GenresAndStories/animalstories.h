@@ -276,7 +276,8 @@ void MyDogSpot(){
 
     cout<<"My Dog Spot!\n\n";
     cout<<"I have a really "<<adjective1<<" dog named Spot! He is "<<number<<" years old and is really "<<adjective2<<". He can do many tricks, like shake his "<<singleBodyPart1<<", roll "<<direction1<<", "<<verb1<<", "<<verb2<<" the "<<noun1<<", speak and lay "<<direction2<<" on command.\n";
-    cout<<"He is a part "<<breedOfDog<<" part "<<animal<<" He's mainly "<<color1<<" but has "<<color2<<" socks and a cute "<<noun2<<" shaped spot on his "<<singleBodyPart2<<", that's why I named him Spot! Sometimes I like to dress him up in a "<<singlePieceOfClothing1<<", "<<singlePieceOfClothing2<<" or "<<pluralClothing<<", especially in the "<<season<<".\n";
+    cout<<"He is a part "<<breedOfDog<<" part "<<animal<<". He's mainly "<<color1<<" but has "<<color2<<" socks and a cute "<<noun2<<" shaped spot on his "<<singleBodyPart2<<", that's why I named him Spot! Sometimes I like to dress him up in a "<<singlePieceOfClothing1<<", "<<singlePieceOfClothing2<<" or "<<pluralClothing<<", especially in the "<<season<<".\n";
     cout<<"One time, my dog saved someone's "<<familyMember<<" from "<<verbEndingInING1<<". I awarded him with "<<pluralNoun<<" for that one! He also goes to "<<occupationEndingInING<<" homes to cheer up "<<oldOrYoung<<" people, he's sort of a therapy dog because he makes people "<<emotion<<"!\n";
     cout<<"He really likes to go "<<verbEndingInING2<<" and "<<verb3<<" with me every morning without his "<<noun3<<". He really is something "<<adjective3<<"!\n";
 }
+
