@@ -119,5 +119,8 @@ void Animal(){
         case 1:
             DogOffLeash();
             break;
+        case 2:
+            MyDogSpot();
+            break;
     }
 }
