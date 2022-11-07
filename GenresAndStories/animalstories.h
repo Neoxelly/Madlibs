@@ -155,6 +155,123 @@ void DogOffLeash(){
 }
 
 void MyDogSpot(){
+    system("CLS");
     string adjective1, adjective2, adjective3, singleBodyPart1, singleBodyPart2, direction1, direction2, verb1, verb2, verb3, noun1, noun2, noun3, breedOfDog, animal, color1, color2, singlePieceOfClothing1, singlePieceOfClothing2, pluralClothing, season, familyMember, verbEndingInING1, verbEndingInING2, pluralNoun, occupationEndingInING, oldOrYoung, emotion;
     float number;     
+    cout<<"Adjective: ";
+    cin.ignore();
+    getline(cin, adjective1);
+
+    cout<<"Number: ";
+    cin>>number;
+    cin.ignore(1, '\n');
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective2);
+
+    cout<<"Single body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, singleBodyPart1);
+
+    cout<<"Direction: ";
+    cin.ignore(0, '\n');
+    getline(cin, direction1);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb1);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun1);
+
+    cout<<"Direction: ";
+    cin.ignore(0, '\n');
+    getline(cin, direction2);
+
+    cout<<"Breed of dog: ";
+    cin.ignore(0, '\n');
+    getline(cin, breedOfDog);
+
+    cout<<"Animal: ";
+    cin.ignore(0, '\n');
+    getline(cin, animal);
+    
+    cout<<"Colour: ";
+    cin.ignore(0, '\n');
+    getline(cin, color1);
+
+    cout<<"Colour: ";
+    cin.ignore(0, '\n');
+    getline(cin, color2);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun2);
+
+    cout<<"Single body part: ";
+    cin.ignore(0, '\n');
+    getline(cin, singleBodyPart2);
+
+    cout<<"Single piece of clothing: ";
+    cin.ignore(0, '\n');
+    getline(cin, singlePieceOfClothing1);
+
+    cout<<"Single piece of clothing: ";
+    cin.ignore(0, '\n');
+    getline(cin, singlePieceOfClothing2);
+
+    cout<<"Clothing (Plural): ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralClothing);
+
+    cout<<"Season: ";
+    cin.ignore(0, '\n');
+    getline(cin, season);
+
+    cout<<"Family member: ";
+    cin.ignore(0, '\n');
+    getline(cin, familyMember);
+
+    cout<<"Verb ending in ing: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbEndingInING1);
+
+    cout<<"Noun - Plural: ";
+    cin.ignore(0, '\n');
+    getline(cin, pluralNoun);
+
+    cout<<"Occupation ending in ing: ";
+    cin.ignore(0, '\n');
+    getline(cin, occupationEndingInING);
+
+    cout<<"Old or young?: ";
+    cin.ignore(0, '\n');
+    getline(cin, oldOrYoung);
+
+    cout<<"Emotion: ";
+    cin.ignore(0, '\n');
+    getline(cin, emotion);
+
+    cout<<"Verb ending in ing: ";
+    cin.ignore(0, '\n');
+    getline(cin, verbEndingInING2);
+
+    cout<<"Verb: ";
+    cin.ignore(0, '\n');
+    getline(cin, verb3);
+
+    cout<<"Noun: ";
+    cin.ignore(0, '\n');
+    getline(cin, noun3);
+
+    cout<<"Adjective: ";
+    cin.ignore(0, '\n');
+    getline(cin, adjective3);
+
 }
